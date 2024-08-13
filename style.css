@@ -1,0 +1,672 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+@media (max-width: 768px) {
+  .nav {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    border-radius: 0;
+  }
+  .container {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    border-radius: 0;
+  }
+  .container h1 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    border-radius: 0;
+  }
+  .container h2 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    border-radius: 0;
+  }
+  .container h3{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    border-radius: 0;
+  }
+  .container p {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    border-radius: 0;
+  }
+  .contanier1 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  nav .login{
+    padding: 20px;
+    gap: 1rem;
+  }
+
+   .logo h1 {
+    display: block;
+  }
+
+  .btn-2 {
+    width: 100%;
+  }
+  .btn-2{
+    width: 100%;
+  }
+
+  .footer-col form button {
+    margin: 10px 0 0 0;
+  } 
+  .footer-col form button {
+    margin: 10px 0 0 0;
+  }
+}
+
+*{
+   
+font-family: "Bai Jamjuree", sans-serif;
+
+
+}
+nav{
+    display: flex;
+    align-items: end;
+    padding-top: 20px;
+   
+font-family: "Bai Jamjuree", sans-serif;
+
+    scale: 1;
+   padding: 0 50px;
+   font-size: 30px;
+  
+  }
+nav .login{
+    padding-right:40px ;
+}
+nav  a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 30px #ffefef, 
+    0 0 10px rgba(255, 239, 239, 0.599), 
+    0 0 100px #ffffff, 
+    0 0 500px #ffffff, 
+    5px 9px 5px rgba(255, 255, 255, 0.638);
+    
+
+    
+}
+nav a:after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(50, 47, 255);
+  transform: scale(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+nav a:hover::after{
+  color: rgb(98, 0, 255);
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+.logo{
+    display: flex;
+    align-items: start;
+    padding-left: 20px;
+    color: #4c00ff;
+    text-shadow: 0 0 30px #000000, 
+    0 0 10px rgb(0, 4, 255), 
+    0 0 100px #3d3aff, 
+    0 0 500px #0059ff, 
+    5px 9px 5px rgba(0, 0, 0, 0.638);
+}
+.logo h1{
+    padding-top: 20px;
+    text-indent: 20px;
+}
+.logo img {
+    height: 50px;
+    border-radius: 50%;
+    color: #4c00ff;
+    text-shadow: 0 0 30px #000000, 
+    0 0 10px rgb(0, 4, 255), 
+    0 0 100px #3d3aff, 
+    0 0 500px #0059ff, 
+    5px 9px 5px rgba(0, 0, 0, 0.638);
+}
+.menu{
+    display: flex;
+    align-items: end;
+    margin-left: auto;
+    margin-right: 100px;
+    font-size: 20px;
+    text-indent: 50px;
+     scale: 0.9;
+}
+
+.container {
+    padding-top: 170px;
+    padding-left: 200px;
+font-family: "Bai Jamjuree", sans-serif;
+
+  
+}
+.container h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 0 30px #ffefef, 
+    0 0 10px rgba(255, 239, 239, 0.599), 
+    0 0 100px #ffffff, 
+    0 0 500px #ffffff, 
+    5px 9px 5px rgba(255, 255, 255, 0.638);
+    font-family: 'Montserrat', sans-serif;
+
+}
+.container h2{
+    font-size: 50px;
+    color: #4c00ff;
+    text-shadow: 0 0 30px #000000, 
+    0 0 10px rgb(0, 4, 255), 
+    0 0 100px #3d3aff, 
+    0 0 500px #0059ff, 
+    5px 9px 5px rgba(0, 0, 0, 0.638);
+    font-family: 'Montserrat', sans-serif;
+
+}
+.container h3{
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 0 30px #ffefef, 
+    0 0 10px rgba(255, 239, 239, 0.599), 
+    0 0 100px #ffffff, 
+    0 0 500px #ffffff, 
+    5px 9px 5px rgba(255, 255, 255, 0.638);
+font-family: "Bai Jamjuree", sans-serif;
+
+
+}
+.container p{
+    padding-top: 40px;
+    color: #e2e2e2;
+    text-shadow: 0 0 30px #ffffff, 
+    0 0 10px rgba(255, 255, 255, 0.599), 
+    0 0 100px #000000, 
+    0 0 500px #000000, 
+    5px 9px 5px rgba(0, 0, 0, 0.638);
+    
+}
+.buttons{
+ padding-left: 200px;
+ font-size: 30px;
+}
+.btn-2 {
+  scale: 0.5;
+  padding: 0 50px;
+  width: 200px;
+  height: 70px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1;
+  overflow: hidden;
+  
+}
+
+.btn-2:hover {
+  color: black;
+}
+
+.btn-2:after {
+  content: "";
+  background: white;
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+}
+
+.btn-2:hover:after {
+  transform: skewX(-45deg) scale(1, 1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.containerbalck{
+  background-color: black;
+  scale: 0.9;
+  padding: 0 50px;
+  border-radius: 20px;
+}
+.trend{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 40px;
+font-family: "Bai Jamjuree", sans-serif;
+
+  color: #e2e2e2;
+  color: #e2e2e2;
+  text-shadow: 0 0 30px #ffffff, 
+  0 0 10px rgba(255, 255, 255, 0.599), 
+  0 0 100px #000000, 
+  0 0 500px #000000, 
+  5px 9px 5px rgba(0, 0, 0, 0.638);            
+}
+      
+
+
+/*===== VARIABLES CSS =====*/
+:root {
+    --dark-color-lighten: #f2f5ff;
+    --red-card: #a62121;
+    --blue-card: #4bb7e6;
+    --btn: #141414;
+    --btn-hover: #3a3a3a;
+    --text: #fbf7f7;
+  }
+  
+  /*===== RESET =====*/
+  *,
+  ::before,
+  ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  button {
+font-family: "Bai Jamjuree", sans-serif;
+
+    display: inline-block;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+    color: var(--text);
+    cursor: pointer;
+  }
+  
+
+  .button1 {
+    text-decoration: none;
+  }
+  
+
+img {
+    max-width: 100%;
+    height: 100%;
+    user-select: none;
+  }
+  
+  /*===== CARD =====*/
+  .container1 {
+    height: 100%;
+    width: 850px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 50px;
+     overflow: hidden;
+  }
+  .card1 {
+    position: relative;
+    padding: 1rem;
+    width: 350px;
+    height: 450px;
+    box-shadow: -1px 15px 30px -12px rgb(32, 32, 32);
+    border-radius: 0.9rem;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+     scale: 0.9;
+  padding: 0 50px;
+   
+  }
+  
+  .card-blue {
+    background: white;
+    border-radius: 20px;
+  }
+  
+  .product-image {
+    height: 230px;
+    width: 100%;
+    transform: translate(0, -1.5rem);
+    transition: transform 500ms ease-in-out;
+    filter: drop-shadow(5px 10px 15px rgba(8, 9, 13, 0.4));
+  }
+  .product-image img {
+     border-radius: 20px;
+  }
+  .product-image2 {
+    height: 230px;
+    width: 100%;
+    padding-right: 20px;
+    transform: translate(0, -1.5rem);
+    transition: transform 500ms ease-in-out;
+    filter: drop-shadow(5px 10px 15px rgba(8, 9, 13, 0.4));
+  }
+  .product-image2 img {
+     border-radius: 20px;
+     margin-top: 10px;
+       
+  }
+  .product-info {
+    text-align: center;
+    
+  }
+  
+ 
+  .product-info h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  .product-info p {
+    margin: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .price {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0.8rem;
+  }
+  
+  .buy-btn {
+    background-color: var(--btn);
+    padding: 0.6rem 3.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: 300ms ease;
+  }
+  .buy-btn:hover {
+    background-color: var(--btn-hover);
+  }
+  .fav {
+    box-sizing: border-box;
+    background: #fff;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid#000;
+    display: grid;
+    place-items: center;
+  }
+  
+  .svg {
+    height: 25px;
+    width: 25px;
+    fill: #fff;
+    transition: all 500ms ease;
+  }
+  
+  .fav:hover .svg {
+    fill: #000;
+  }
+  .information{
+    color: white;
+    scale: 0.9;
+    font-size: 20px;
+    padding: 0 50px;
+    padding-top: 20px ;
+font-family: "Bai Jamjuree", sans-serif;
+
+    inset-block: 20px;
+
+  }
+  @media screen and (max-width: 800px) {
+    body {
+      height: auto;
+    }
+    .container {
+      padding: 2rem 0;
+      width: 100%;
+      flex-direction: column;
+      gap: 3rem;
+    }
+  }
+  .AboutMe h1 {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 40px;
+font-family: "Bai Jamjuree", sans-serif;
+
+    color: #e2e2e2;
+    color: #e2e2e2;
+    text-shadow: 0 0 30px #ffffff, 
+    0 0 10px rgba(255, 255, 255, 0.599), 
+    0 0 100px #000000, 
+    0 0 500px #000000, 
+    5px 9px 5px rgba(0, 0, 0, 0.638);
+  }
+
+  .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content p{
+    text-align: center;
+    padding-top: 70px;
+    color: #fbf7f7;
+font-family: "Bai Jamjuree", sans-serif;
+
+    padding-right: 100px;
+    margin-left: 20px;
+    font-size: 40px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 30px;
+  }
+  .content img{
+    width: 700px;
+    height: 800px;
+    padding-right: 200px;
+    padding-top: 70px;
+    scale: 0.9;
+    padding: 0 50px;
+     
+    
+  }
+  .backgrwondimg{
+    background-image:url("img/5983488681916350678_119.jpg") ;   
+    
+    scale: 0.9;
+    padding: 0 50px;
+    border-radius: 20px;
+    
+  }
+ 
+  .morproducts h1 {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 40px;
+font-family: "Bai Jamjuree", sans-serif;
+
+    color: #e2e2e2;
+    color: #e2e2e2;
+    text-shadow: 0 0 30px #ffffff, 
+    0 0 10px rgba(255, 255, 255, 0.599), 
+    0 0 100px #000000, 
+    0 0 500px #000000, 
+    5px 9px 5px rgba(0, 0, 0, 0.638);       
+  }
+
+
+.footer {
+font-family: "Bai Jamjuree", sans-serif;
+
+
+ min-width: 100%;
+min-height: 100%;
+ background: #ffffff;
+}
+
+.footer .footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3.5rem;
+  padding: 60px;
+}
+
+.footer-row .footer-col h4 {
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.footer-col .links {
+  margin-top: 20px;
+}
+
+.footer-col .links li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer-col .links li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer-col .links li a:hover {
+  color: #0026ff;
+}
+
+.footer-col p {
+  margin: 20px 0;
+  color: #000000;
+  max-width: 300px;
+}
+
+.footer-col form {
+  display: flex;
+  gap: 5px;
+}
+
+.footer-col input {
+  height: 40px;
+  border-radius: 6px;
+  background: none;
+  width: 100%;
+  outline: none;
+  border: 1px solid #7489C6 ;
+  caret-color: #000000;
+  color: #000000;
+  padding-left: 10px;
+}
+
+.footer-col input::placeholder {
+  color: #ccc;
+}
+
+ .footer-col form button {
+  background: #fff;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+  color: black;
+}
+
+.footer-col form button:hover {
+  background: #cecccc;
+}
+
+.footer-col .icons {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.footer-col .icons i {
+  color: #afb6c7;
+}
+
+.footer-col .icons i:hover  {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .footer .footer-row {
+    padding: 20px;
+    gap: 1rem;
+  }
+
+  .footer-col form {
+    display: block;
+  }
+
+  .footer-col form :where(input, button) {
+    width: 100%;
+  }
+
+  .footer-col form button {
+    margin: 10px 0 0 0;
+  }
+}
+.background-video{
+  position: fixed; 
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1;      
+  background-size: cover;
+  }
